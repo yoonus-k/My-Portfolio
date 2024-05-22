@@ -16,7 +16,7 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 
 ## How to View
 
-You can visit the portfolio at [https://yoonus.me/](https://your-portfolio-url.com](https://yoonus.me/).
+You can visit the portfolio at (https://yoonus.me/)
 
 ## Local Setup
 
