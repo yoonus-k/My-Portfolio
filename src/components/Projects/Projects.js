@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Portfolio from "../../Assets/Projects/Portfolio.png";
+import Chess from "../../Assets/Projects/Chess.png";
+import Store from "../../Assets/Projects/Store.png";
+import Inventory from "../../Assets/Projects/Inventory.png";
+import Reg from "../../Assets/Projects/Reg.png";
+import Real from "../../Assets/Projects/Real.png";
 
 function Projects() {
   return (
@@ -23,67 +23,64 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Inventory}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Inventory Management System"
+              description="Developed using AppSheet and Google Sheets for database integration, this inventory management application also leverages AWS services and integrates seamlessly with Oxo database. Designed for Starbucks branches, it provides real-time stock levels, calculates daily variances, monitors expiry dates, and supports API integration for enhanced functionality."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Real}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Real-Estate"
+              description="Built with Next.js, PostgreSQL, React, and Tailwind CSS, this full-stack real estate application facilitates property buying and selling. It supports payment options and allows users to register as buyers, sellers, or brokers, providing a comprehensive platform for real estate transactions."
+              ghLink="https://github.com/yoonus-k/cpcs_241_db"
+              demoLink="https://cpcs-241-db.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Store}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Gym Bro - Ecommerce"
+              description="This custom-developed e-commerce website, created using Shopify's Liquid themes, boasts a premium design and has generated over $1 million in revenue. It offers a seamless shopping experience tailored to fitness enthusiasts."
+              ghLink="https://github.com/yoonus-k/Debutify_theme_Gym_Bro"
+              demoLink="https://www.gymbromixer.com/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Portfolio}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Personal Portfolio"
+              description="A visually appealing portfolio website developed with React.js and Bootstrap, deployed on Vercel. It showcases a modern UI design, highlighting personal projects and achievements effectively."
+              ghLink="https://github.com/yoonus-k/My-Portfolio"
+              demoLink="https://yoonus.me/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Reg}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Registration System"
+              description="Created to streamline course registration during high traffic times, this Chrome extension was built using JavaScript and Bootstrap. It uses Chrome's messaging technology between the browser and background scripts, allowing users to save course numbers and automate registration at specified times."
+              ghLink="https://github.com/yoonus-k/Odus_Reg"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Chess}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="AI Chess"
+              description="Developed in Python, this Chess AI utilizes an enhanced alpha-beta pruning algorithm. Users can set the algorithm's depth and choose between manual or AI mode, providing a challenging and customizable chess experience."
+              ghLink="https://github.com/yoonus-k/Chess_AI_Python"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>

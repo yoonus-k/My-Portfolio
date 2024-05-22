@@ -5,14 +5,18 @@ import {
   SiPostman,
   SiSlack,
   SiVercel,
-  SiMacos,
+  
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa6";
+import { SiBlender } from "react-icons/si";
 
+import { IoLogoFigma } from "react-icons/io5";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+      <FaAws />
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
@@ -26,6 +30,13 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+          <IoLogoFigma />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <SiBlender />
+
+        </Col>
     </Row>
   );
 }

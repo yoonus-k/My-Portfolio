@@ -8,33 +8,36 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+           
+            <span className="purple"> Yoonus Kizhakkethil is a full-stack developer</span> with experience in Java, JavaScript, Python, React, Next.js, Firebase, and Liquid files. 
             <br />
-            I am currently employed as a software developer at Juspay.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Passionate about creating user-friendly web applications, Yoonus brings a wealth of technical expertise to every project.
+            <br />
+             You can find more about me on my <a className="purple" href="https://www.linkedin.com/in/yoonus-k/">Linkedin profile</a>  page
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Chess
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Reading Books
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Watching Movies
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Learning new things everyday
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Keep It Simple"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Yoonus</footer>
         </blockquote>
       </Card.Body>
     </Card>

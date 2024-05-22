@@ -3,16 +3,15 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
+
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { CiLinkedin } from "react-icons/ci";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -52,7 +51,7 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav  defaultActiveKey="#home">
+          <Nav defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
@@ -91,8 +90,18 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-        
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                // open new tab
+                target="_blank"
+                rel="noopener noreferrer"
+                to="https://www.linkedin.com/in/yoonus-k/"
+                onClick={() => updateExpanded(false)}
+              >
+                <CiLinkedin style={{ marginBottom: "2px" }} /> Linkedin
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

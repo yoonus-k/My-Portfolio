@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import FindMe from "./FindMe";
 
 function About() {
   return (
@@ -46,6 +47,7 @@ function About() {
         <Toolstack />
 
         <Github />
+        <FindMe />
       </Container>
     </Container>
   );
